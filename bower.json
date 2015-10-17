@@ -1,0 +1,34 @@
+{
+  "name":            "appeco-webgui",
+  "version":         "0.0.0",
+  "authors":         [
+    "Gabriel Nadler"
+  ],
+  "description":     "Webgui to configure AppEcosystem (manage apps, settings etc)",
+  "main":            "dist/index.html",
+  "license":         "MIT",
+  "ignore":          [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib"
+  ],
+  "dependencies":    {
+    "bootstrap":                             "3.3.4",
+    "font-awesome":                          "*",
+    "lodash":                                "*",
+    "moment":                                "*",
+    "angular":                               "*",
+    "angular-sanitize":                      "*",
+    "angular-messages":                      "*",
+    "angular-cookie":                        "*",
+    "angular-translate":                     "*",
+    "angular-translate-loader-static-files": "*",
+    "angular-ui-router":                     "*",
+    "angular-bootstrap":                     "*"
+  },
+  "devDependencies": {
+    "angular-mocks":    "*",
+    "angular-scenario": "*"
+  }
+}
